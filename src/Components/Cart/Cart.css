@@ -1,0 +1,10 @@
+.cartItem-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.deleteItem {
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 50%;
+}
