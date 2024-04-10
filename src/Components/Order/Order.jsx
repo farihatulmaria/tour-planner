@@ -13,9 +13,9 @@ const Order = () => {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-      fetch(productUrl)
-      .then(res => res.json())
-      .then(data => setProducts(data))
+      //fetch(productUrl)
+      //.then(res => res.json())
+      //.then(data => setProducts(data))
     }, []);
     // adding items to cart
     const addToCart = (product) =>{

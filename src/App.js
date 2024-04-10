@@ -5,14 +5,12 @@ import './App.css';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Order from './Components/Order/Order';
-import Questions from './Components/Questions/Questions';
 
 function App() {
   return (
     <>
       <Header/>
-      <Order/>
-      <Questions/>     
+      <Order/>    
       <Footer/>
     </>
   );
